@@ -1,0 +1,534 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+/*
+    로고 font-family: 'Crimson Text', serif;
+    나머지 font-family: 'Noto Sans KR', sans-serif;
+    히스토리 font-family: 'Pinyon Script', cursive;
+*/
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: 0.6s;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    color:#000;
+}
+
+/*로고 폰트 수정*/
+.navbar-default .navbar-brand {
+    font-family: 'Crimson Text', serif;
+    font-size:35px;
+    font-weight:600;
+    color:#000;
+    float:none;
+    /*내가 추가*/
+    /*background-color:#0094ff;*/
+    line-height:60px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+
+.navbar-default {
+    background-image: none;
+    background-color: #ffffff;
+    margin-bottom:0;
+}
+/*
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}*/
+
+.con1600{
+    width:84.21%;
+    overflow:hidden;
+    margin:auto;
+    /*background-color:#ffd800;*/
+    transition: 0.6s;
+}
+
+.mt150 {
+    margin-top: 150px;
+    transition: 0.6s;
+}
+
+.mt100{
+    margin-top:100px;
+    transition: 0.6s;
+}
+
+/*카테고리*/
+.c_box{
+    float:left;
+    display:block;
+    transition: 0.6s;
+}
+
+    .c_box img {
+        max-width:100%;
+        transition: 0.6s;
+    }
+
+
+    .c_box a {
+        text-decoration:none;
+    }
+        .c_box a:hover {
+            color:#ccc;
+        }
+.c_box p{
+    text-align:center;
+    font-weight:300;
+    transition: 0.6s;
+}
+
+.mt30 {
+    margin-top:30px;
+    transition: 0.6s;
+}
+
+.mb30{
+    margin-bottom:30px;
+    transition: 0.6s;
+}
+
+.all_box{
+    
+}
+
+/*혁신과 독창성 text*/
+.textC h4{
+    font-size:21px;
+    font-weight:300;
+    margin-bottom:8px;
+    transition: 0.6s;
+}
+.textC p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+.textC a {
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+/*혁신과독창성 - 자세히 보기 a 링크*/
+.text-center > a {
+    color: #333333;
+    text-decoration: underline;
+}
+.hd img{
+    max-width:100%;
+    transition: 0.6s;
+}
+
+/*신제품*/
+.new .col-md-3,.col-sm-3,.col-xs-3{
+    transition: 0.6s;
+}
+
+.new p{
+    font-weight:300;
+}
+
+.new a {
+    text-decoration:none;
+}
+
+.new a:hover{
+    color:#ccc;
+}
+
+.new img {
+    max-width:100%;
+    transition: 0.6s;
+}
+
+/*신제품 - 제품 더 보기*/
+.btn {
+    text-align:center;
+    display:block;
+    transition: 0.6s;
+}
+
+    .btn button {
+        width:150px;
+        height:40px;
+        background-color:#fff;
+        border:1px solid #333;
+        color:#333333;
+        margin:0 auto;
+        margin-top:100px;
+        font-weight:200;
+        transition: 0.6s;
+    }
+        .btn button:hover {
+            background-color:#333;
+            color:#fff;
+        }
+
+
+/*LA MAISON HISTOIRE*/
+/*
+.his {
+    background-color:#000;
+}*/
+.hisbg {
+    padding-right: 0px;
+    padding-left: 0px;
+    transition: 0.6s;
+}
+
+.hisbg>p{
+    font-weight:300;
+    margin-top:20px;
+    transition: 0.6s;
+}
+
+.his img{
+    max-width:100%;
+    max-height:100%;
+    transition: 0.6s;
+}
+
+.bg {
+    width: 100%;
+    height: 675px;
+    background-image: url(../image/history_bg.jpg);
+    background-size: 100%;
+    max-width:100%;
+    transition: 0.6s;
+}
+
+.hleft {
+    padding-left:0;
+    margin-right:96px;
+    transition: 0.6s;
+}
+
+.hright {
+    padding-left:0;
+    margin-top:140px;
+    transition: 0.6s;
+}
+
+    .hright > h2 {
+        margin-bottom: 35px;
+        font-size: 80px;
+        font-weight: 300;
+        font-family: 'Pinyon Script', cursive;
+    }
+
+    .hright>p {
+        margin-bottom:60px;
+        line-height:24px;
+        font-size:16px;
+        font-weight:300;
+    }
+
+    .hright > button {
+        background-color:#fff;
+        border:1px solid #333;
+        padding:10px 35px;
+        font-weight:200;
+        transition: 0.6s;
+    }
+
+    .hright > button:hover {
+            background-color:#333;
+            color:#fff;
+        }
+
+
+
+/*수집 박스*/
+.box{
+    
+}
+
+.bb:hover img{
+    filter: brightness(70%);
+}
+
+.box:last-child{
+    margin-right:0;
+    transition: 0.6s;
+}
+
+.mt60{
+    margin-top:60px;
+    transition: 0.6s;
+}
+
+.mb300{
+    margin-bottom:300px;
+    transition: 0.6s;
+}
+.textS a {
+    text-decoration:none;
+}
+
+.textS a:hover {
+    color:#ccc;
+}
+
+.textS img {
+    max-width:100%;
+    transition: 0.6s;
+}
+
+.textS h4{
+    font-weight:300;
+    font-size:20px;
+}
+
+/*footer*/
+footer {
+    width:100%;
+    overflow:hidden;
+    background-color: #333333;
+}
+
+    /*footer_top*/
+.ft{
+    width:100%;
+    height:210px;
+    /*background-color:#f00;*/
+}
+.ftL{
+    width:33.33%;
+    float:left;
+    /*background-color:#aaa;*/
+}
+    .ftL p {
+        color: #fff;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .ftL label {
+        color: #fff;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .ftL .em {
+        margin-left:20px;
+    }
+
+.ftC {
+    width: 33.33%;
+    float: left;
+    /*background-color: #bbb;*/
+    text-align: center;
+}
+.ftR {
+    width: 33.33%;
+    float: right;
+    /*background-color: #ccc;*/
+}
+.icon {
+    margin-top: 21px;
+    cursor: pointer;
+    line-height: 40px;
+}
+select {
+    margin-top: 15px;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    background-color: #333333;
+    border: none;
+    font-size: 14px;
+}
+.fab {
+    font-size: 20px;
+    margin-right: 25px;
+    color: #fff;
+}
+/*footer_bottom*/
+footer .fb {
+    width: 100%;
+    overflow: hidden;
+    /*background-color:#f00;*/
+    padding-bottom: 30px;
+}
+
+.boxf ul {
+    padding-left:0;
+}
+
+.boxf li a{
+    font-weight:100;
+    color:#fff;
+}
+
+.boxf li:first-child {
+    margin-bottom:20px;
+}
+
+.boxf li {
+    line-height:28px;
+}
+/*transition*/
+@media screen and (max-width:1920px) {
+    .bg {
+        transition: 0.6s;
+    }
+
+    .hleft {
+        transition: 0.6s;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:800px){
+    .bg {
+        height: 555px;
+    }
+
+    .hleft {
+        margin-right: 60px;
+    }
+
+    .hright {
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:1105px) {
+    .ftL input{
+        width: 140px;
+    }
+
+    .fb ul{
+        padding: 20px 0;
+    }
+
+    .fb ul>li,span{
+        display: none;
+    }
+    .fb ul>li:first-child{
+        display: block;
+    }
+
+}
+@media screen and (max-width:905px){
+    .ftR{
+        padding: 0;
+    }
+
+    .ftL input.em{
+        margin-left: 0px;
+    }
+
+    .fab{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:600px){
+    .bg {
+        height: 500px;
+    }
+
+    .hleft {
+        margin-right: 0px;
+    }
+
+    .hright {
+        margin-top: 85px;
+    }
+
+        .hright h2 {
+            font-size: 55px;
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+        .hright p {
+            font-size: 14px;
+            padding-left: 30px;
+            margin-bottom: 50px;
+        }
+        .hright button{
+            margin-left:30px;
+            font-size:12px;
+        }
+}
+@media screen and (max-width:768px){
+    .bg {
+        height:0;
+    }
+    .hleft{
+        padding-right:0;
+    }
+    .hleft img {
+        display: block;
+        margin: auto;
+    }
+
+    /*혁신과 독창성 text*/
+    .textC h4{
+    font-size:16px;
+    font-weight:300;
+    margin-bottom:5px;
+}
+.textC p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    transition: 0.6s;
+}
+.textC a {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+/*수집*/
+.box {
+        margin-bottom:40px;
+        position:relative;
+        transition: 0.6s;
+    }
+
+    .box h4{
+        margin-top:0;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color:#fff;
+        font-size:20px;
+        transition: 0.6s;
+    }
+    
+    .box:last-child {
+        margin-bottom:0px;
+        transition: 0.6s;
+    }
+}
+
+@media screen and (max-width:556px){
+    .ftL,.ftR{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+    .hisbg{
+        margin-bottom: 600px;
+    }
+}

@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>boucheron</title>
+    <link rel="shortcut icon" href="image/favicon_bou.ico"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1779c0dccd.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <style>
+        .mainbg {
+            padding: 0;
+            margin: 0;
+        }
+
+        #nav_n {
+            float: none;
+            display: inline-block;
+        }
+
+        .mainbg .col-md-12 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .mainbg > .row {
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav_logo {
+            width: 100%;
+            height: 50px;
+            overflow: hidden;
+            float: none;
+            text-align: center;
+            /*내가추가
+            background-color:#ffd800;*/
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!--header-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!--ham-->
+            <div class="navbar-header" id="nav_logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">BOUCHERON</a>
+            </div>
+            <!--//ham-->
+
+
+
+            <!--menu-->
+            <div class="navbar-collapse collapse text-center" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav list-inline text-center" id="nav_n">
+                    <li><a href="#">하이 주얼리</a></li>
+                    <li><a href="#">주얼리</a></li>
+                    <li><a href="#">웨딩</a></li>
+                    <li><a href="#">워치메이킹</a></li>
+                    <li><a href="#">액세서리</a></li>
+                    <li><a href="#">메종</a></li>
+                    <li><a href="#">부쉐론 서비스</a></li>
+
+
+                    <!-- 내려오는 메뉴
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">menu4 <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">submenu1</a></li>
+                                    <li><a href="#">submenu2</a></li>
+                                    <li><a href="#">submenu3</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">submenu4</a></li>
+                                    <li><a href="#">submenu5</a></li>
+                                </ul>
+                            </li>
+                            -->
+                </ul>
+
+                <!--<ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">login</a></li>
+                        </ul>-->
+            </div>
+            <!--//menu-->
+
+
+
+        </div>
+    </nav>
+    <!--//header-->
+
+
+
+    <!--slide-->
+    <!--슬라이드 효과(풀로채움)-->
+    <div class="container-fluid mainbg">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators : 하단에 홈버튼-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- //Indicators -->
+
+
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <!--이미지자리-->
+                            <img src="image/slide_3.jpg" alt="" class="img-responsive" />
+                            <div class="carousel-caption">
+                                <h2><!--title1--></h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!--이미지자리-->
+                            <img src="image/slide_4.jpg" alt="" class="img-responsive" />
+                            <div class="carousel-caption">
+                                <h2><!--title2--></h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!--이미지자리-->
+                            <img src="image/slide_2.jpg" alt="" class="img-responsive" />
+                            <div class="carousel-caption">
+                                <h2><!--title3--></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //Wrapper for slides -->
+
+
+
+
+                    <!-- Controls 왼쪽,오른쪽 슬라이드버튼-->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <!--왼쪽버튼설정-->
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <!--오른쪽버튼설정-->
+                    </a>
+                    <!--//Controls 왼쪽,오른쪽 슬라이드버튼-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--//슬라이드 효과-->
+    <!--//slide-->
+
+
+
+    <!--contents-->
+
+    <!--카테고리(w:1600)-->
+    <div class="container con1600 mt150">
+        <h3 class="text-center">카테고리 별 제품</h3>
+        <div class="row all_box mt100">
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_1.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">링</p></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_2.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">네크리스&펜던트</p></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_3.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">이어링</p></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_4.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">브레이슬릿</p></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_5.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">헤어주얼리</p></a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 c_box">
+                <a href="#"><img src="image/ca_6.jpg" alt="" /></a>
+                <a href="#"><p class="mt30">브로치</p></a>
+            </div>
+        </div>
+    </div>
+    <!--//카테고리-->
+
+
+    <!--혁신과 독창성(md12)-->
+    <div class="container mt150 hd">
+        <h3 class="text-center">까르뜨 블랑슈 컬렉션</h3>
+        <div class="row mt100">
+            <div class="col-md-6 col-xs-6 bb">
+                <div class="text-center mb30 textC">
+                    <h4>혁신</h4>
+                    <p>가슴벅찬 감동을 선사하는 작품</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <a href="#"><img src="image/hd_1.jpg" alt="" class=" pull-left" /></a>
+            </div>
+            <div class="col-md-6 col-xs-6 pull-right bb">
+                <a href="#"><img src="image/hd_2.jpg" alt="" class=" pull-right mb30" /></a>
+                <div class="text-center textC">
+                    <h4>독창</h4>
+                    <p>가장 우선시 되는 창조의 자유</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//혁신과 독창성-->
+
+
+
+    <!--신제품(md12)-->
+    <div class="container mt150 new">
+        <h3 class="text-center">신제품</h3>
+        <div class="row mt100">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <a href="#"><img src="image/sin_1.jpg" alt="" /></a>
+                <a href="#"><p class="text-center mt30">쎄뻥 보헴 링 S 모티브</p></a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <a href="#"><img src="image/sin_2.jpg" alt="" /></a>
+                <a href="#"><p class="text-center mt30">
+                    쎄뻥 보헴 브레이브슬릿,<br />
+                    2개의 S 모티브
+                </p></a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <a href="#"><img src="image/sin_3.jpg" alt="" /></a>
+                <a href="#"><p class="text-center mt30">
+                    플륌 드 펑 펜던트 이어링,<br />
+                    미디엄 모델
+                </p></a>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <a href="#"><img src="image/sin_4.jpg" alt="" /></a>
+                <a href="#"><p class="text-center mt30">플레쉬 브레이슬릿</p></a>
+            </div>
+        </div>
+        <!--자세히보기-->
+        <div class="btn">
+            <button type="button">제품 더 보기</button>
+        </div>
+        <!--//자세히보기-->
+    </div>
+    <!--//신제품-->
+
+
+
+    <!--history(bg-full / 내용-md12)-->
+    <!--전체 full bg > container 내용순-->
+    <div class="container-fluid mt150 hisbg">
+        <h3 class="text-center">LA MAISON HISTOIRE</h3>
+        <p class="text-center">메종 부쉐론이 이루어낸 26가지 최초의 기록을 통해 타의 추종을 불허하는 탁월한 노하우와 혁신, 독특한 스타일을 확인할 수 있습니다.</p>
+        <div class="bg mt60">
+            <div class="container">
+                <div class="row his">
+                    <div class="col-md-6 col-sm-7 col-xs-12 hleft">
+                        <a href="#"><img src="image/history.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-5 col-sm-5 hidden-xs pull-left hright">
+                        <h2>carte blanche</h2>
+                        <p>
+                            메종 부쉐론은 스튜디오에서 자유로운 창작이
+                            이뤄지도록 지원합니다. &nbsp;
+                             하이 주얼리 컬렉션은
+                            독창성과 혁신으로 완성된 다양한 작품을 통해
+                            가슴 벅찬 감동을 선사합니다.
+                        </p>
+                        <button type="button">자세히 보기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//history-->
+
+
+
+    <!--수집(w:1600)-->
+    <div class="container con1600 mt150 mb300">
+        <h3 class="text-center">수집</h3>
+        <div class="row mt100 textS">
+            <div class="col-md-4 col-sm-4 col-xs-12 box pull-left text-center bb">
+                <a href="#"><img src="image/last_1.jpg" alt="" /></a>
+                <span><!--오버레이효과--></span>
+                <a href="#"><h4 class="mt60">콰트로</h4></a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 box pull-left text-center bb">
+                <a href="#"><img src="image/last_2.jpg" alt="" /></a>
+                <span><!--오버레이효과--></span>
+                <a href="#"><h4 class="mt60">쎄뻥 보헴</h4></a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 box pull-left text-center bb">
+                <a href="#"><img src="image/last_3.jpg" alt="" /></a>
+                <span><!--오버레이효과--></span>
+                <a href="#"><h4 class="mt60">잭 드 부쉐론</h4></a>
+            </div>
+        </div>
+    </div>
+    <!--//수집-->
+
+
+
+    <!--//contents-->
+
+
+
+    <!--footer-->
+    <footer>
+        <!--1600inner-->
+        <div class="container con1600">
+            <div class="row ft mt60">
+                <div class="col-md-4 ftL">
+                    <p>뉴스레터</p>
+                    <!--이메일 입력칸-->
+                    <label>이메일*</label>
+                    <input type="email" name="em" class="em" />
+                </div>
+                <div class="col-md-4 ftC">
+                    <!--logo-->
+                    <a href="#"><img src="image/logo-footer.png" alt="" /></a>
+                </div>
+                <div class="col-md-4 ftR">
+                    <!--아이콘-->
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-weixin"></i>
+                        <i class="fab fa-weibo"></i>
+                        <i class="fab fa-line"></i>
+                    </div>
+                    <!--언어칸-->
+                    <select>
+                        <option>한국어</option>
+                        <option>영어</option>
+                        <option>중국어</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="row fb">
+                <div class="col-sm-3 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">도움이 필요하신가요?<span>+</span></a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">문의하기</a></li>
+                        <li><a href="#">노하우와 가이드</a></li>
+                        <li><a href="#">인증</a></li>
+                        <li><a href="#">방문예약</a></li>
+                        <li><a href="#">내 즐겨찾기</a></li>
+                        <li><a href="#">사이즈 가이드</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-2 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">정보<span>+</span></a></li>
+                        <li><a href="#">채용</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">법적고지</a></li>
+                        <li><a href="#">개인정보 보호정책</a></li>
+                        <li><a href="#">쿠키 정책</a></li>
+                        <li><a href="#">쿠키 설정</a></li>
+                        <li><a href="#">윤리 규범</a></li>
+                        <li><a href="#">사이트 맵</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-sm-2 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">주얼리<span>+</span></a></li>
+                        <li><a href="#">콰트로</a></li>
+                        <li><a href="#">쎄뻥 보헴</a></li>
+                        <li><a href="#">잭 드 부쉐론</a></li>
+                        <li><a href="#">애니멀 컬렉션</a></li>
+                        <li><a href="#">네이처</a></li>
+                        <li><a href="#">꾸뛰르</a></li>
+                        <li><a href="#">아키텍처</a></li>
+                        <li><a href="#">앙떵포렐</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">하이 주얼리<span>+</span></a></li>
+                        <li><a href="#">까르뜨 블랑슈 컬렉션</a></li>
+                        <li><a href="#">스타일의 역사 컬렉션</a></li>
+                        <li><a href="#">특별 주문</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">워치메이킹 <span>+</span></a></li>
+                        <li><a href="#">리플레</a></li>
+                        <li><a href="#">에퓨어</a></li>
+                        <li><a href="#">쎄뻥 보헴</a></li>
+                        <li><a href="#">오뜨 올로제리</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-1 col-xs-6 boxf">
+                    <ul>
+                        <li><a href="#">웨딩 <span>+</span></a></li>
+                        <li><a href="#">웨딩 밴드</a></li>
+                        <li><a href="#">인게이지먼트 링</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--//1600inner-->
+
+    </footer>
+    <!--//footer-->
+
+    
+</body>
+</html>

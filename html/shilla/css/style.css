@@ -68,7 +68,7 @@ button{
 }
 
 /*header - pc*/
-#wrap{background:#fcfbf8;}
+.wrap{background:#fcfbf8;}
 
 header{
     position:fixed;
@@ -147,7 +147,7 @@ header.active .logo a{
     background-image:url(../img/logo_w.png);
 }
 
-#nav_wrap{
+.nav_wrap{
     position: fixed;
     background-color:#e8d7c3e3;
     left: 0;
@@ -265,7 +265,7 @@ header i{
 
 
 /*mainSd*/
-#mainSd{
+.mainSd{
     width: 100%;
     height: 890px;
     background-image: url(../img/main_slide_03.jpg);
@@ -276,7 +276,7 @@ header i{
     /* filter: brightness(50%); 요소거나 이미지면 가능 */ 
 }
 
-#mainSd .text{
+.mainSd .text{
     position: absolute;
     left: 50%;
     top: 34%;
@@ -285,7 +285,7 @@ header i{
     transition: 0.6s;
 }
 
-#mainSd .text h1{
+.mainSd .text h1{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     font-weight: 100;
@@ -294,7 +294,7 @@ header i{
     transition: 0.6s;
 }
 
-#mainSd .text h3{
+.mainSd .text h3{
     font-family: 'Roboto', sans-serif; 
     font-size: 18px;
     font-weight: 200;
@@ -302,7 +302,7 @@ header i{
     letter-spacing:1px;
 }
 
-#mainSd .text p{
+.mainSd .text p{
     font-family: 'Roboto', sans-serif; 
     font-size: 21px;
     font-weight: 200;
@@ -310,7 +310,7 @@ header i{
     margin-top: 50px;
 }
 
-#mainSd table{
+.mainSd table{
     width: 76%;
     height: 102px;
     background-color: #ffffff;
@@ -323,61 +323,61 @@ td{
     border: none;
 }
 
-#mainSd table .top td{
+.mainSd table .top td{
     font-size: 14px;
     font-weight: 400;
     color: #6a6a6a;
 }
-#mainSd table .top td:first-child{
+.mainSd table .top td:first-child{
     text-align: left;
 }
 
-#mainSd table .top .tbg{
+.mainSd table .top .tbg{
     background-color: #9a8776;
     color: #fff;
     font-size: 24px;
     font-weight: 300;
     width: 9%;
 }
-#mainSd .tbg a{
+.mainSd .tbg a{
     color: #fff;
 }
-#mainSd .tbg a:hover{
+.mainSd .tbg a:hover{
     color: #000;
     transition: 0.5s;
 }
 
-#mainSd table .bottom td{
+.mainSd table .bottom td{
     font-size: 24px;
     font-weight: 400;
     color: #6a6a6a;
 }
 
-#mainSd table .bottom td a{
+.mainSd table .bottom td a{
     color: #6a6a6a;
 }
-#mainSd table .bottom p{
+.mainSd table .bottom p{
     float: left;
 }
 
-#mainSd table td:first-child{
+.mainSd table td:first-child{
     width: 23%;
     padding-left: 60px;
     /* background-color: #d5bea4;  */
 }
 
-#mainSd table td img{
+.mainSd table td img{
     width: 7%;
     margin-top: 8px;
 }
-#mainSd table td:nth-child(4),
-#mainSd table td:nth-child(5),
-#mainSd table td:nth-child(6),
-#mainSd table td:nth-child(7){
+.mainSd table td:nth-child(4),
+.mainSd table td:nth-child(5),
+.mainSd table td:nth-child(6),
+.mainSd table td:nth-child(7){
     width: 7.25%;
     /* background-color: #bbb; */
 }
-#mainSd input{
+.mainSd input{
     border: none;
     font-size: 22px;
     text-align: center;
@@ -387,7 +387,7 @@ td{
 
 /*--------------------------------------*/
 /*reward*/
-#contents{
+.contents{
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -653,7 +653,7 @@ ul#tabs-list li label.panel-label:hover::after {
 
 
 /*life*/
-#life{
+.life{
     margin-top: 200px;
     position: relative;
     /* background-color: #9a8776; */
@@ -662,7 +662,7 @@ ul#tabs-list li label.panel-label:hover::after {
     transition: 0.6s;
 }
 
-#life>h1{
+.life>h1{
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: 100;
@@ -670,14 +670,14 @@ ul#tabs-list li label.panel-label:hover::after {
 }
 
 
-#life>.con_inner{
+.life>.con_inner{
      width: 100%; 
      overflow: hidden; 
      background: url(../img/bg_b.png) right 160px no-repeat;  
      margin-top: 120px;
 }
 
-#life .con{
+.life .con{
     width: 64%;
     margin: auto;
     margin-bottom: 190px;
@@ -729,22 +729,22 @@ ul#tabs-list li label.panel-label:hover::after {
     font-weight: 100;
     margin-bottom: 46px;
 }
-#life .text{
+.life .text{
     line-height: 24px;
 }
-#life .text h3{
+.life .text h3{
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 26px;
 }
-#life .text p{
+.life .text p{
     font-size: 14px;
     font-weight: 300;
 }
-#life .text p:nth-of-type(2){
+.life .text p:nth-of-type(2){
     margin: 26px 0;
 }
-#life .text p:nth-of-type(3){
+.life .text p:nth-of-type(3){
     margin-bottom: 26px;
 }
 
@@ -819,42 +819,42 @@ ul#tabs-list li label.panel-label:hover::after {
 
 
 /*gal*/
-#gal{
+.gal{
     text-align: center;
 }
-#gal img{
+.gal img{
     height: 100%;
 }
-#gal h1{
+.gal h1{
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: 100;
     margin-bottom: 98px;
 }
 
-#gal .left,
-#gal .right{
+.gal .left,
+.gal .right{
     width: 49.3%;
     float: left;
     height: 70vh;
 }
 
-#gal .right{
+.gal .right{
     float: right;
 }
 
-#gal .left .lt,
-#gal .left .lb{
+.gal .left .lt,
+.gal .left .lb{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-bottom: 2vh;
 }
-#gal .right .lt{
+.gal .right .lt{
     float: left;
     width: 49.3%;
 }
-#gal .right .lb{
+.gal .right .lb{
     float: right;
     width: 49.3%;
     display: flex;
@@ -863,15 +863,15 @@ ul#tabs-list li label.panel-label:hover::after {
     justify-content: space-between;
 }
 
-#gal .right .lb .box {
+.gal .right .lb .box {
    overflow: hidden;
 }
 
-#gal .right .lb .box:nth-child(2){
+.gal .right .lb .box:nth-child(2){
      margin: 2vh 0; 
 }
 
-#gal iframe{
+.gal iframe{
     display: none;
 }
 
@@ -995,7 +995,7 @@ footer .sec p{
 
 /* pc */
 @media all and (min-width:1300px){
-    #nav_wrap{
+    .nav_wrap{
         display: block;
         height: 60px;/*100px;*/
         background:#e8d7c3;/*transparent;*/
@@ -1029,7 +1029,7 @@ footer .sec p{
         width:100%;
         height:100%;
     }
-    #nav_wrap{
+    .nav_wrap{
         height: 90px;/*100px;*/
         transition: .3s;
     }

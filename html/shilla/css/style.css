@@ -44,8 +44,6 @@ button{
     display:block;
 }
 
-.mobile{}
-
 /* animation */
 @keyframes up{
     0%{transform: translateY(70px);}
@@ -72,9 +70,7 @@ button{
     100%{transform: translateX(0);}
 }
 
-
-
-/* header - mobile */
+/*header - pc*/
 #wrap{background:#fcfbf8;}
 
 header{

@@ -204,7 +204,7 @@ header ul.gnb>li>a:hover{
 header ul.submenu{
     width: 100%;
     display: none;
-    float: left;
+    /* float: left; */
 }
 
 header ul.submenu>li{
@@ -232,7 +232,7 @@ header ul.login{
 }
 
 header ul.login>li{
-    float: left;
+    /* float: left; */
     font-size: 12px;
     font-weight: 300;
     line-height: 10px;

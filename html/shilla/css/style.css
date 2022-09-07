@@ -18,20 +18,16 @@ button{
     background-color:transparent;
     cursor:pointer;
 }
-
-
 .wrap{
     width: 77%;/* 1462 76.14 */
     overflow: hidden;
     margin: 0 auto;
 }
-
 .wrap_2{
     width: 77%;/* 1462 76.14 */
     overflow: hidden;
     margin: 0 auto;
 }
-
 
 /* common */
 .hide{display:none;}
@@ -216,7 +212,6 @@ header ul.submenu>li{
     height: 60px;
     font-size: 13px;
     font-weight: 300;
-    /* background-color: #9a8776; */
     
 }
 
@@ -288,7 +283,6 @@ header i{
     transform: translate(-50%, 0);
     text-align: center;
     transition: 0.6s;
-    /*background-color:cadetblue;*/
 }
 
 #mainSd .text h1{
@@ -443,9 +437,6 @@ label.panel-label {
 label.panel-label:hover {
     color: #b65e50;
 }
-#panels {
-    /* background-color:#dddddd; */
-}
 #panels .container {
     margin: 0 auto;
     width: 100%;
@@ -544,11 +535,9 @@ label.panel-label:hover {
 }
 ul#tabs-list {
     list-style: none;
-    /*border-bottom: 1px solid #dfdfdf;*/
     margin: 0px 0px;
     padding: 0;
     text-align: center;
-    /*border-bottom: 1px solid #dfdfdf;*/
     overflow:hidden;
     position: absolute;
     right: 0;
@@ -876,7 +865,6 @@ ul#tabs-list li label.panel-label:hover::after {
 
 #gal .right .lb .box {
    overflow: hidden;
-
 }
 
 #gal .right .lb .box:nth-child(2){

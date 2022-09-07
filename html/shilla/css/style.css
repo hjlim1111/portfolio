@@ -173,6 +173,7 @@ header .nav_bg{
     background-color: #fff;
     display: none;
 }
+
 header ul.gnb>li{
     width: 100%;
     overflow: hidden;
@@ -1079,7 +1080,7 @@ footer .sec p{
 
     header ul.gnb>li{
         width: 18%;
-        float: left;
+        /* float: left; */
         /*margin: 0px 20px;*/
         font-size: 14px;
         font-weight: 400;

@@ -228,7 +228,8 @@ header ul.login{
     top: 0;
     right:6%;
     /* background-color: #0f5bb9; */
-    display: none;
+    display:flex;
+    justify-content:space-between;
 }
 
 header ul.login>li{
@@ -1092,9 +1093,9 @@ footer .sec p{
         width: 10%;
     }
 
-    header ul.login{
+    /* header ul.login{
         display: block;
-    }
+    } */
 
     .mobile{display: none;}
 

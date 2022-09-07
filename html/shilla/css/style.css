@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif; 위 밑 글씨
 li{list-style: none;}
 a{text-decoration: none;}
 img{display: block; max-width: 100%;}
+.flex_value{display:flex;justify-content:space-between;}
 
 button{
     border:none;
@@ -738,24 +739,24 @@ ul#tabs-list li label.panel-label:hover::after {
 
 /*box1*/
 .box1 .left{
-  width: 50%;
-  height: 860px; 
-  /*background-color: rgb(68, 202, 202);*/
-  float: left; 
-  position: relative;
-  transition: 0.6s;
+    width: 50%;
+    height: 860px; 
+    /*background-color: rgb(68, 202, 202);*/
+    float: left; 
+    position: relative;
+    transition: 0.6s;
 }
 .box1 .left img:nth-child(1){
- position: absolute; 
- right: 0;
- top: 0;
- /*z-index: 2;*/
+    position: absolute; 
+    right: 0;
+    top: 0;
+    /*z-index: 2;*/
 }
 .box1 .left img:nth-child(2){
- position: absolute; 
- left: 0;
- bottom: 0;
- /*width: 50%;*/
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    /*width: 50%;*/
 }
 
 .box1 .right{

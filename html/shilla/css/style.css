@@ -88,23 +88,23 @@ header{
 .logo{
     position:absolute;
     left:6.4%; /* 48 / 750 */
-    top:8px;
-    width:175px;
-    height:45px;
+    top:18px;
+    /* width:175px;
+    height:45px; */
     z-index:1000;
 }
 .logo h1{
     font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 500;
     color: #9a8776;
     letter-spacing:3px;
     transition: 0.6s;
 }
 .logo h3{
     font-family: 'Roboto', sans-serif; 
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: 400;
     color: #9a8776;
     letter-spacing:1px;
 }
@@ -1066,10 +1066,10 @@ footer .sec p{
 /* pc */
 @media all and (min-width:1300px){
     /* header - pc */
-    .logo{
-        left:3%;/*6.875%;*/
+    /* .logo{
+        left:3%;/*6.875%;
         top: 8px;
-    }
+    } */
     #nav_wrap{
         display: block;
         height: 60px;/*100px;*/
@@ -1112,10 +1112,10 @@ footer .sec p{
 
 @media all and (min-width:1432px){
 
-    .logo{
+    /* .logo{
         left: 9.5%;
         top: 8px;
-    }
+    } */
 
 
     .logo a{

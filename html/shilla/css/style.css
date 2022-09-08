@@ -389,7 +389,7 @@ td{
 
 /*--------------------------------------*/
 /*reward*/
-#contents{
+.contents{
     width: 100%;
     overflow: hidden;
     position: relative;

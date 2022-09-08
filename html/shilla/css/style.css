@@ -879,11 +879,6 @@ ul#tabs-list li label.panel-label:hover::after {
     width: 49.3%;
     height: 70vh;
 }
-
-.gal .right{
-    float: right;
-}
-
 .gal .left .lt,
 .gal .left .lb{
     display: flex;

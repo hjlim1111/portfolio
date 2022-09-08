@@ -389,7 +389,7 @@ td{
 
 /*--------------------------------------*/
 /*reward*/
-.contents{
+#contents{
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -439,6 +439,9 @@ label.panel-label {
 label.panel-label:hover {
     color: #b65e50;
 }
+#panels {
+    /* background-color:#dddddd; */
+}
 #panels .container {
     margin: 0 auto;
     width: 100%;
@@ -471,6 +474,12 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1.last {
+    /*border-right: 1px solid transparent;*/
+}
+#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 + li {
+    /*border-left: 1px solid #dfdfdf;*/
+}
 #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
     /* background-color: white; */
     color: #b65e50;
@@ -488,6 +497,12 @@ label.panel-label:hover {
     transform: translate3d(0, 1px, 0);
     box-shadow: none;
     border-right: none;
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2.last {
+    /* border-right: 1px solid transparent; */
+}
+#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 + li {
+    /*border-left: 1px solid #dfdfdf;*/
 }
 #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
     /* background-color: white; */
@@ -507,6 +522,12 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3.last {
+    /*border-right: 1px solid transparent;*/
+}
+#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 + li {
+    /*border-left: 1px solid #dfdfdf;*/
+}
 #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
     /* background-color: white; */
     color: #b65e50;
@@ -525,6 +546,12 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
+#panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4.last {
+    /*border-right: 1px solid transparent;*/
+}
+#panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 + li {
+    /*border-left: 1px solid #dfdfdf;*/
+}
 #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
     /* background-color: white; */
     color: #b65e50;
@@ -537,9 +564,11 @@ label.panel-label:hover {
 }
 ul#tabs-list {
     list-style: none;
+    /*border-bottom: 1px solid #dfdfdf;*/
     margin: 0px 0px;
     padding: 0;
     text-align: center;
+    /*border-bottom: 1px solid #dfdfdf;*/
     overflow:hidden;
     position: absolute;
     right: 0;
@@ -550,15 +579,24 @@ ul#tabs-list {
 }
 ul#tabs-list li {
     display:block;
+    /* float:left;*/
     text-align: center;
     font-size: 0.875em;
     width: 10%;
+    /* box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.05); */
+    /*border-right: 1px solid #dfdfdf;*/
     position: relative;
 }
 ul#tabs-list li:hover {
     -webkit-transition: none;
     transition: none;
     border-right: none;
+}
+ul#tabs-list li:hover.last {
+    /*border-right: 1px solid transparent;*/
+}
+ul#tabs-list li:hover + li {
+    /*border-left: 1px solid #dfdfdf;*/
 }
 ul#tabs-list li label.panel-label {
     position: relative;
@@ -652,6 +690,7 @@ ul#tabs-list li label.panel-label:hover::after {
         }
 
 /*--------------------------------------*/
+
 
 
 /*life*/

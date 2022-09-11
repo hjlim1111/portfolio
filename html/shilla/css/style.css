@@ -872,11 +872,17 @@ ul#tabs-list li label.panel-label:hover::after {
     margin-bottom: 98px;
 }
 
-.gal .left,
-.gal .right{
-    width:49.2%;
+.all_gal{
     display: flex;
     justify-content: space-between;
+}
+
+.gal .left{
+    width:49.2%;
+}
+
+.gal .right{
+    width:49.2%;
 }
 
 /* .gal .left,

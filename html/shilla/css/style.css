@@ -881,11 +881,8 @@ ul#tabs-list li label.panel-label:hover::after {
 .gal .left{
     width:49.2%;
 }
-
 .gal .left .lt,
 .gal .left .lb{
-    display:flex;
-    justify-content:space-between;
     margin-bottom: 2vh;
 }
 .gal .left .lt{
@@ -904,28 +901,18 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal .right{
     width:49.2%;
-    display:flex;
-    justify-content:space-between;
 }
-
-.gal .right .lt,
-.gal .right .lb{
+.gal .right .lt{
     width:48.4%;
 }
-
-
 .gal .right .lb{
     width: 49.3%;
-    display: flex;
     flex-wrap: wrap; 
     flex-direction: row;
-    justify-content: space-between;
 }
-
 .gal .right .lb .box {
    overflow: hidden;
 }
-
 .gal .right .lb .box:nth-child(2){
      margin: 2vh 0; 
 }

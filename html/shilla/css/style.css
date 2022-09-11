@@ -875,7 +875,7 @@ ul#tabs-list li label.panel-label:hover::after {
 .all_gal{
     display: flex;
     justify-content: space-between;
-    height: 75vh;
+    height: 70vh;
 }
 
 .gal .left{
@@ -886,6 +886,20 @@ ul#tabs-list li label.panel-label:hover::after {
 .gal .left .lb{
     display:flex;
     justify-content:space-between;
+    margin-bottom: 2vh;
+}
+.gal .left .lt{
+    height:39vh;
+    overflow: hidden;
+}
+.gal .left .lt .box:first-child{
+    width:66%;
+}
+.gal .left .lt .box:last-child{
+    width:31%;
+}
+.gal .left .lb .box{
+    width:48.4%;
 }
 
 .gal .right{
@@ -898,8 +912,22 @@ ul#tabs-list li label.panel-label:hover::after {
 .gal .right .lb{
     width:48.4%;
 }
-.gal .left .lb .box{
-    width:48.4%;
+
+
+.gal .right .lb{
+    width: 49.3%;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gal .right .lb .box {
+   overflow: hidden;
+}
+
+.gal .right .lb .box:nth-child(2){
+     margin: 2vh 0; 
 }
 
 .gal iframe{

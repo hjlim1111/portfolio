@@ -875,7 +875,7 @@ ul#tabs-list li label.panel-label:hover::after {
 .all_gal{
     display: flex;
     justify-content: space-between;
-    height: 70vh;
+    height: 75vh;
 }
 
 .gal .left{
@@ -896,11 +896,10 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal .right .lt,
 .gal .right .lb{
-    width:48.6%;
+    width:48.4%;
 }
-
 .gal .left .lb .box{
-    width:48.6%;
+    width:48.4%;
 }
 
 .gal iframe{

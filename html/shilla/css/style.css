@@ -1047,6 +1047,7 @@ footer .bottom p{
 footer .sec .top{
     display: flex;
     justify-content: space-between;
+    margin:24px 0;
 }
 
 footer .sec .top ul{
@@ -1079,6 +1080,8 @@ footer .sec .top .icon{
 }
 footer .sec .top .icon a{
     width:65px;
+    display: flex;
+    justify-content:flex-end;
 }
 footer .sec p{
     border-top: 1px solid #e2e2e2;

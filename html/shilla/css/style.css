@@ -872,7 +872,9 @@ ul#tabs-list li label.panel-label:hover::after {
     margin-bottom: 98px;
 }
 
-.gal .left{
+.gal .left,
+.gal .right{
+    width:49.2%;
     display: flex;
     justify-content: space-between;
 }

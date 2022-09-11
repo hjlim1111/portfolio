@@ -579,7 +579,6 @@ ul#tabs-list {
 }
 ul#tabs-list li {
     display:block;
-    /* float:left;*/
     text-align: center;
     font-size: 0.875em;
     width: 10%;

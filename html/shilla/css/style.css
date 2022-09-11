@@ -92,7 +92,7 @@ header{
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     font-weight: 500;
-    color: #9a8776;
+    color: #3a332e;/*5a4f46*/
     letter-spacing:3px;
     transition: 0.6s;
 }
@@ -100,7 +100,7 @@ header{
     font-family: 'Roboto', sans-serif; 
     font-size: 13px;
     font-weight: 400;
-    color: #9a8776;
+    color: #3a332e;
     letter-spacing:1px;
 }
 
@@ -973,10 +973,11 @@ footer .fis{
     background-color: #d5bea4;
     transition: 0.6s;
 }
-footer .fis .wrap>a img{
+footer .fis .wrap > .logo{
     width: 16.21%;
     float: left;
     margin-top: 76px;
+    position:static;
 }
 footer .right{
     width: 78%;

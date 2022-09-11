@@ -883,6 +883,13 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal .right{
     width:49.2%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.gal .right .lt,
+.gal .right .lb{
+    width:49.2%;
 }
 
 /* .gal .left,

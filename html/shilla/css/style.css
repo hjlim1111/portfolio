@@ -881,6 +881,12 @@ ul#tabs-list li label.panel-label:hover::after {
     width:49.2%;
 }
 
+.gal .left .lt,
+.gal .left .lb{
+    display:flex;
+    justify-content:space-between;
+}
+
 .gal .right{
     width:49.2%;
     display:flex;
@@ -889,7 +895,11 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal .right .lt,
 .gal .right .lb{
-    width:49.2%;
+    width:48.6%;
+}
+
+.gal iframe{
+    display: none;
 }
 
 /* .gal .left,

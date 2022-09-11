@@ -880,13 +880,12 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal .left{
     width:49.2%;
-}
-.gal .left .lt,
-.gal .left .lb{
-    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .gal .left .lt{
-    height:39vh;
+    height:38vh;
     overflow: hidden;
 }
 .gal .left .lt .box:first-child{
@@ -894,6 +893,9 @@ ul#tabs-list li label.panel-label:hover::after {
 }
 .gal .left .lt .box:last-child{
     width:31%;
+}
+.gal .left .lb{
+    height: 30vh;
 }
 .gal .left .lb .box{
     width:48.4%;

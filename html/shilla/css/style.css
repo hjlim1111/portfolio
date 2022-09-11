@@ -973,15 +973,24 @@ footer .fis{
     background-color: #d5bea4;
     transition: 0.6s;
 }
+footer .fis .wrap{
+    display:flex;
+    justify-content:space-between;
+}
 footer .fis .wrap > .logo{
     width: 16.21%;
-    float: left;
     margin-top: 76px;
     position:static;
+    text-align: center;
+}
+footer .fis .wrap > .logo h1{
+    font-size:35px;
+}
+footer .fis .wrap > .logo h3{
+    font-size: 18px;
 }
 footer .right{
     width: 78%;
-    float: right;
     transition: 0.6s;
 }
 footer .right>.top{

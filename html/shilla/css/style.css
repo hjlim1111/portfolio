@@ -923,43 +923,6 @@ ul#tabs-list li label.panel-label:hover::after {
     display: none;
 }
 
-/* .gal .left,
-.gal .right{
-    width: 49.3%;
-    height: 70vh;
-}
-.gal .left .lt,
-.gal .left .lb{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin-bottom: 2vh;
-}
-.gal .right .lt{
-    width: 49.3%;
-}
-.gal .right .lb{
-    width: 49.3%;
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.gal .right .lb .box {
-   overflow: hidden;
-}
-
-.gal .right .lb .box:nth-child(2){
-     margin: 2vh 0; 
-}
-
-.gal iframe{
-    display: none;
-} */
-
-
-
 /*footer*/
 footer{
     width: 100%;

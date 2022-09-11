@@ -862,9 +862,9 @@ ul#tabs-list li label.panel-label:hover::after {
 .gal{
     text-align: center;
 }
-.gal img{
+/* .gal img{
     height: 100%;
-}
+} */
 .gal h1{
     font-family: 'Playfair Display', serif;
     font-size: 40px;
@@ -873,7 +873,7 @@ ul#tabs-list li label.panel-label:hover::after {
 }
 
 
-.gal .left,
+/* .gal .left,
 .gal .right{
     width: 49.3%;
     height: 70vh;
@@ -906,7 +906,7 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .gal iframe{
     display: none;
-}
+} */
 
 
 

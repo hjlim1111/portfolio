@@ -19,7 +19,7 @@ button{
     cursor:pointer;
 }
 .wrap{
-    width: 88%;/* 1462 76.14 */
+    width: 77%;/* 1462 76.14 */
     overflow: hidden;
     margin: 0 auto;
 }
@@ -892,6 +892,8 @@ footer .fis .wrap > .logo{
     width: 16.21%;
     position:static;
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
 }
 footer .fis .wrap > .logo h1{
     font-size:30px;

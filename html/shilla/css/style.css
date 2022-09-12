@@ -381,7 +381,6 @@ td{
 .mainSd table td:first-child{
     width: 23%;
     padding-left: 46px;
-    /* background-color: #d5bea4;  */
 }
 
 .mainSd table td img{
@@ -393,7 +392,6 @@ td{
 .mainSd table td:nth-child(6),
 .mainSd table td:nth-child(7){
     width: 7.25%;
-    /* background-color: #bbb; */
 }
 .mainSd input{
     border: none;
@@ -409,15 +407,12 @@ td{
     width: 100%;
     overflow: hidden;
     position: relative;
-    padding-top: 60px;
     transition: 0.6s;
-    /* background-color: aquamarine; */
 }
 
 #panels section .main {
     width: 74.58%;
     height: 888px;
-    /* background-color: #ff0;  */
     overflow: hidden;
     box-sizing: border-box;
     max-height: 0;
@@ -433,7 +428,6 @@ td{
 #panel-1-ctrl:checked ~ #panels #panel-1 .main {
     max-height: initial;
     opacity: 1;
-    /* padding: 48px 24px; */
 }
 
 label.panel-label {
@@ -445,7 +439,6 @@ label.panel-label {
     width: 100%;
     color: #292929;
     cursor: pointer;
-    /*background-color: #ecf0f1;*/
     -webkit-transition-property: background-color, color;
     transition-property: background-color, color;
     -webkit-transition-duration: 200ms;
@@ -454,9 +447,6 @@ label.panel-label {
 }
 label.panel-label:hover {
     color: #b65e50;
-}
-#panels {
-    /* background-color:#dddddd; */
 }
 #panels .container {
     margin: 0 auto;
@@ -490,14 +480,7 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
-#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1.last {
-    /*border-right: 1px solid transparent;*/
-}
-#panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 + li {
-    /*border-left: 1px solid #dfdfdf;*/
-}
 #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
-    /* background-color: white; */
     color: #b65e50;
     padding-top: 24px;
     font-size: 60px;
@@ -514,14 +497,7 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
-#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2.last {
-    /* border-right: 1px solid transparent; */
-}
-#panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 + li {
-    /*border-left: 1px solid #dfdfdf;*/
-}
 #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
-    /* background-color: white; */
     color: #b65e50;
     padding-top: 24px;
     font-size: 60px;
@@ -538,14 +514,7 @@ label.panel-label:hover {
     box-shadow: none;
     border-right: none;
 }
-#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3.last {
-    /*border-right: 1px solid transparent;*/
-}
-#panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 + li {
-    /*border-left: 1px solid #dfdfdf;*/
-}
 #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
-    /* background-color: white; */
     color: #b65e50;
     padding-top: 24px;
     font-size: 60px;
@@ -640,7 +609,6 @@ ul#tabs-list li label.panel-label:hover::after {
 .main {
     width: 70%;
     margin: 0 auto;
-    /* background-color: #9a8776; */
 }
 .panel-radios {
     display: none;
@@ -648,7 +616,6 @@ ul#tabs-list li label.panel-label:hover::after {
 
 .main .left{
     width: 45%;
-    float: left;
     /* background-color: #bbb; */
 }
 .main .text h1{
@@ -678,21 +645,15 @@ ul#tabs-list li label.panel-label:hover::after {
 }
 #panels .img img{
     width: 46%;
-    float: left;
-}
-#panels .img img:first-child{
-    margin-right: 30px;
 }
 .main .bg{
     width: 7%;
-    float: left;
     background-color: #fff;
     margin-top: 10px;
 }
 
 .main .right{
     width: 47.5%;
-    float: left;
     margin-top: 10px;
 }
 

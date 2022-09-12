@@ -281,7 +281,7 @@ header i{
 .mainSd .text{
     position: absolute;
     left: 50%;
-    top: 34%;
+    top: 26%;
     transform: translate(-50%, 0);
     text-align: center;
     transition: 0.6s;
@@ -312,6 +312,17 @@ header i{
     margin-top: 50px;
 }
 
+/*table flex
+.mainSd .all_table{
+    width: 76%;
+    height: 102px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 477px;
+}
+*/
+
+/*table*/
 .mainSd table{
     width: 76%;
     height: 102px;
@@ -324,8 +335,6 @@ header i{
 td{
     border: none;
 }
-
-
 
 .mainSd table .top td{
     font-size: 14px;

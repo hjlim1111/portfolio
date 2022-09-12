@@ -328,7 +328,7 @@ header i{
     height: 102px;
     background-color: #ffffff;
     margin: auto;
-    margin-top: 600px;
+    margin-top: 470px;
     border-collapse: collapse;
     text-align: center;
 }
@@ -361,7 +361,7 @@ td{
 }
 
 .mainSd table .bottom td{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     color: #6a6a6a;
 }
@@ -369,13 +369,18 @@ td{
 .mainSd table .bottom td a{
     color: #6a6a6a;
 }
+.mainSd table .bottom td:first-of-type > a{
+    display: flex;
+    justify-content:flex-start;
+    align-items:baseline;
+}
 .mainSd table .bottom p{
-    float: left;
+    margin-right:15px;
 }
 
 .mainSd table td:first-child{
     width: 23%;
-    padding-left: 60px;
+    padding-left: 46px;
     /* background-color: #d5bea4;  */
 }
 

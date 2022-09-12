@@ -19,7 +19,7 @@ button{
     cursor:pointer;
 }
 .wrap{
-    width: 77%;/* 1462 76.14 */
+    width: 88%;/* 1462 76.14 */
     overflow: hidden;
     margin: 0 auto;
 }
@@ -947,17 +947,17 @@ footer .fis .wrap > .logo{
     text-align: center;
 }
 footer .fis .wrap > .logo h1{
-    font-size:35px;
+    font-size:30px;
 }
 footer .fis .wrap > .logo h3{
-    font-size: 18px;
+    font-size: 14px;
 }
 footer .right{
-    width: 78%;
+    width: 76%;
     transition: 0.6s;
 }
 footer .right>.top{
-    margin:35px 0;
+    margin:30px 0;
     transition: 0.6s;
     display:flex;
     justify-content:flex-start;
@@ -966,7 +966,7 @@ footer .right>.top a{
     margin-right: 35px;
     font-family: 'Roboto', sans-serif;
     color:rgb(255, 230, 213);
-    font-size: 30px;
+    font-size: 28px;
     line-height: 30px;
     transition: 0.6s;
 }
@@ -1087,10 +1087,6 @@ footer .sec p{
 }
 
 @media all and (min-width:1432px){
-    .logo a{
-        width:100%;
-        height:100%;
-    }
     .nav_wrap{
         height: 90px;/*100px;*/
         transition: .3s;

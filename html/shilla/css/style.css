@@ -227,7 +227,6 @@ header ul.login{
     position: absolute;
     top: 0;
     right:6%;
-    /* background-color: #0f5bb9; */
     display:flex;
     justify-content:space-between;
 }

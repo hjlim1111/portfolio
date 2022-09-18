@@ -3427,9 +3427,9 @@ input, select, textarea {
 						border: 0;
 						color: #605d5b;
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 0.7em;
 						font-weight: bold;
-						letter-spacing: 0.25em;
+						letter-spacing: 0.20em;
 						text-transform: uppercase;
 					}
 
@@ -3531,18 +3531,17 @@ input, select, textarea {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1.3rem;
 		font-weight: 200;
+		margin-bottom: 60px;
 	}
-	.mtop>button{
+	.mtop>a{
 		background-color: #9a8776;
-		border-color: rgba(255, 255, 255, 0.15) !important;
 		color: #f7eee7 !important;
 		font-family: 'Noto Sans KR', sans-serif;
 		font-weight: 400;
-		padding-left: 6em;
-		padding-right: 6em;
-	}
-	.mtop>button>a{
-		border-bottom: none;
+		font-size: 13px;
+		letter-spacing:3px;
+		padding: 20px 70px;
+		border-radius: 100px;
 	}
 	.mtop>img{
 		position: absolute;

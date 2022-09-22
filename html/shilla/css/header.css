@@ -211,6 +211,12 @@ header i{
     opacity: 0;
 }
 
+@media all and (max-width:1300px){
+    .login{
+        display: none;
+    }
+}
+
 @media all and (min-width:1300px){
     .nav_wrap{
         display: block;
@@ -238,6 +244,7 @@ header i{
         width: 10%;
     }
     .mobile{display: none;}
+
 
 }
 

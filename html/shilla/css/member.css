@@ -321,76 +321,10 @@ footer .sec p{
     }
 }
 @media screen and (max-width:1430px) {
-
-    /*menu*/
-    header>.wrap img{
-        display: none;
-    }
-    header{
-        height: 60px;
-        background-color: #e8d7c3;
-    }
-    header>.wrap .img{ /*m_logo*/
-        background-image: url(../img/m_logo.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 148px;
-        height: 39px;
-        margin-top: 10.5px;
-        float: left;
-        margin-right: 20px;
-    }
     .wrap nav{
         width:60%;
     }
-    header .nav_bg{
-        /* height: 250px; */
-        position: absolute;
-        left: 0;
-        top: 60px;
-    }
-    header>.wrap>nav>ul.menu>li{
-        line-height: 60px;
-        float: left;
-        font-weight: 400;
-        font-size: 14px;
-    }
-    header ul.submenu>li{
-        line-height: 40px;
-        height: 40px;
-        font-size: 14px;
-    }
-    header ul.login{
-        position: absolute;
-        top: 0;
-        right: 13%;
-    }
-    header ul.login>li{
-        display: none;
-    }
-    header ul.login i{
-        font-size: 18px;
-        margin-top: 21px;
-        cursor: pointer;
-        opacity: 1;
-        color: #9a8776;
-        margin-right: 10px;
-    }
 
-}
-
-@media screen and (max-width:1300px){
-    header ul.submenu{
-        display: none;
-    }
-
-    header ul.submenu>li{
-        display: none;
-    }
-
-    header .nav_bg{
-        opacity: 0;
-    }
 }
 
 
@@ -409,31 +343,6 @@ footer .sec p{
 @media screen and (max-width:1150px) {
     #mainSd{
         height: 500px;
-    }
-
-    header>.wrap>nav>ul.menu>li{
-        display: none;
-    }
-    header ul.submenu{
-        display: none;
-    }
-    header ul.login{
-        display: none;
-    }
-    header>.wrap a{
-        width: 20%;
-        float: left;
-    }
-    header i{
-        width: 8%;
-        opacity: 1;
-        font-size: 30px;
-        font-weight: 100;
-        color: #9a8776;
-        margin-top: 15px;
-        /* background-color: #d5bea4; */
-        cursor: pointer;
-        float: right;
     }
 
 

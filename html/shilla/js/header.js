@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $('.btn_nav').click(function(e){
         e.preventDefault();
         $('header').toggleClass('active');

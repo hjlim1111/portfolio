@@ -94,7 +94,7 @@
     <div class="loginForm">
         <form action="">
             <input type="text" name="" id="loginId" placeholder="아이디">
-            <input type="password" name="" id="pwd" placeholder="비밀번호">
+            <input type="password" name="" id="pwd" placeholder="비밀번호" onkeypress="enterkey();">
             <button type="button" onclick="testLogin();">로그인</button>
         </form>
     </div>
@@ -114,11 +114,16 @@
 
             if(id === "admin" && pwd === "111111"){
                 alert("로그인되었습니다.");
-                location.href("http://gywjd8938.dothome.co.kr/shilla/index.html");
+                location.href="http://gywjd8938.dothome.co.kr/shilla/index.html";
             } else {
                 alert("아이디, 비밀번호를 확인하여 주세요.");
             }
         };
+        function enterkey() {
+	    if (window.event.keyCode === 13) {
+            testLogin();
+            }
+        }
     </script>
 </body>
 </html>

@@ -919,8 +919,8 @@ button{
 
 /* animation */ 
 .vision .tit { animation:ani_3 1.0s 0.3s; animation-fill-mode:both; }
-.vision .txt_1 { animation:ani_3 1.0s 0.5s; animation-fill-mode:both; }
-.vision .txt_2 { animation:ani_3 1.0s 0.7s; animation-fill-mode:both; }
+/* .vision .txt_1 { animation:ani_3 1.0s 0.5s; animation-fill-mode:both; }
+.vision .txt_2 { animation:ani_3 1.0s 0.7s; animation-fill-mode:both; } */
 
 .vision .tit { animation:ani_3 1.0s 0.3s; animation-fill-mode:both; }
 .vision .circleBox .cBox.box1 { animation:ani_1 1.0s 0.6s; animation-fill-mode:both; }

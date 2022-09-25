@@ -130,6 +130,7 @@ button{
 }
 
 #content .con{
+    width: 48.2%;
     overflow: hidden;
     transition: 0.6s;
 }

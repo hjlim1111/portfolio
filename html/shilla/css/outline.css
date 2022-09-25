@@ -201,7 +201,7 @@ button{
     margin: 50px 0 0 0;
     /* background-color: cadetblue; */
 }
-.vision .cbox.box_1{
+.vision .cBox.box1{
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -215,7 +215,7 @@ button{
     font-weight: 400;
     /* background-color: chartreuse; */
 }
-.vision .cbox.box_1 strong{
+.vision .cBox.box1 strong{
     position: absolute;
     right: 0;
     top: -15px;
@@ -227,7 +227,7 @@ button{
     background-color: #ba8768;
     border-radius: 100%;
 }
-.vision .cbox.box_1::after{
+.vision .cBox.box1::after{
     content: "";
     display: block;
     position: absolute;
@@ -237,7 +237,7 @@ button{
     height: 1px;
     background-color: #d6b8a3;
 }
-.vision .cbox.box_1::before{
+.vision .cBox.box1::before{
     content: "";
     display: block;
     z-index: 1;
@@ -252,7 +252,7 @@ button{
 }
 
 
-.vision .cbox.box_2{
+.vision .cBox.box2{
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -265,7 +265,7 @@ button{
     color: #333;
     font-weight: 400;
 }
-.vision .cbox.box_2 strong{
+.vision .cBox.box2 strong{
     position: absolute;
     left: 0;
     top: -15px;
@@ -277,7 +277,7 @@ button{
     background-color: #ba8768;
     border-radius: 100%;
 }
-.vision .cbox.box_2::after{
+.vision .cBox.box2::after{
     content: "";
     display: block;
     position: absolute;
@@ -287,7 +287,7 @@ button{
     height: 1px;
     background-color: #d6b8a3;
 }
-.vision .cbox.box_2::before{
+.vision .cBox.box2::before{
     content: "";
     display: block;
     z-index: 1;
@@ -301,13 +301,13 @@ button{
     border-radius: 100%;
 }
 
-.vision .cbox.box_3{
+.vision .cBox.box3{
     border: 20px solid #e8d7c3;
     display: table;
     margin: 0 auto;
     border-radius: 100%;
 }
-.vision .cbox.box_3 .sbox{
+.vision .cBox.box3 .sBox{
     width: 258px;
     height: 258px;
     vertical-align: middle;
@@ -316,14 +316,14 @@ button{
     background-color: #fff;
     border-radius: 100%;
 }
-.vision .cbox.box_3 .sbox strong{
+.vision .cBox.box3 .sBox strong{
     display: block;
     font-size: 24px;
     color: #333;
     font-family: 'Playfair Display', serif;
     font-weight: 100;
 }
-.vision .cbox.box_3 .sbox span{
+.vision .cBox.box3 .sBox span{
     
     display: block;
     font-size: 10px;
@@ -345,11 +345,11 @@ button{
 
 
 
-.vision .cbox.box_1{
+.vision .cBox.box1{
     animation: ani_1 1.0s 0.6s;
     animation-fill-mode: both;
 }
-.vision .cbox.box_2{
+.vision .cBox.box2{
     animation: ani_2 1.0s 0.6s;
     animation-fill-mode: both;
 }
@@ -403,7 +403,7 @@ button{
     margin-bottom: 110px;
     transition: 0.6s;
 }
-.mission .all_box{
+.mission .allBox{
     text-align: center;
     /* background-color: #9a8776; */
     transition: 0.6s;
@@ -683,46 +683,46 @@ button{
 	.vision .circleBox { 
         margin:45px 0 0 0; 
     }
-	.vision .circleBox .cbox.box_1 { 
+	.vision .circleBox .cBox.box1 { 
         margin-right:215px;
         padding-right:60px; 
         font-size:18px; 
     }
-	.vision .circleBox .cbox.box_1 strong { 
+	.vision .circleBox .cBox.box1 strong { 
         top:-15px; 
         width:45px; 
         line-height:45px; 
         font-size:18px; 
     }
-	.vision .circleBox .cbox.box_1:after { 
+	.vision .circleBox .cBox.box1:after { 
         right:-111px; 
         width:75px;
     }
-	.vision .circleBox .cbox.box_1:before { 
+	.vision .circleBox .cBox.box1:before { 
         right:-111px;
      }
-	.vision .circleBox .cbox.box_2 { 
+	.vision .circleBox .cBox.box2 { 
         margin-left:215px; 
         padding-left:60px; 
         font-size:18px; 
     }
-	.vision .circleBox .cbox.box_2 strong { 
+	.vision .circleBox .cBox.box2 strong { 
         top:-15px; 
         width:45px; 
         line-height:45px; 
         font-size:18px; 
     }
-	.vision .circleBox .cbox.box_2:after {
+	.vision .circleBox .cBox.box2:after {
         left:-111px; 
         width:75px;  
     }
-	.vision .circleBox .cbox.box_2:before {
+	.vision .circleBox .cBox.box2:before {
         left:-111px;
      }
-	.vision .circleBox .cbox.box_3 { 
+	.vision .circleBox .cBox.box3 { 
         border:15px solid #e8d7c3; 
     }
-	.vision .circleBox .cbox.box_3 .sbox { 
+	.vision .circleBox .cBox.box3 .sBox { 
         width:215px; 
         height:215px;
      }
@@ -772,7 +772,7 @@ button{
 	.vision .circleBox { 
         margin:120px auto;
     }
-	.vision .circleBox .cbox.box_1 { 
+	.vision .circleBox .cBox.box1 { 
         text-align:center; 
         left:0; 
         top:0; 
@@ -783,7 +783,7 @@ button{
         font-size:16px; 
         width:100%;
       }
-	.vision .circleBox .cbox.box_1 strong {  
+	.vision .circleBox .cBox.box1 strong {  
         position:absolute; 
         text-align:center; 
         top:30px; 
@@ -795,18 +795,18 @@ button{
         font-size:15px; 
         display:block;
     }
-	.vision .circleBox .cbox.box_1:after { 
+	.vision .circleBox .cBox.box1:after { 
         left:50%; 
         width:1px; 
         height:30px; 
         top:62px
     }
-	.vision .circleBox .cbox.box_1:before { 
+	.vision .circleBox .cBox.box1:before { 
         left:50%; 
         top:95px; 
         margin-left:-4px;
     }
-	.vision .circleBox .cbox.box_2 { 
+	.vision .circleBox .cBox.box2 { 
         text-align:center; 
         top:auto; 
         left:0; 
@@ -818,7 +818,7 @@ button{
         font-size:16px; 
         width:100%;
     }
-	.vision .circleBox .cbox.box_2 strong { 
+	.vision .circleBox .cBox.box2 strong { 
         position:absolute; 
         text-align:center; 
         top:-40px;
@@ -830,29 +830,29 @@ button{
         font-size:15px; 
         display:block;
         }
-	.vision .circleBox .cbox.box_2:after {
+	.vision .circleBox .cBox.box2:after {
         left:0;
          width:32px;
     }
-	.vision .circleBox .cbox.box_2:after { 
+	.vision .circleBox .cBox.box2:after { 
         left:50%; 
         width:1px; 
         height:30px; 
         top:-70px 
     }
-	.vision .circleBox .cbox.box_2:before { 
+	.vision .circleBox .cBox.box2:before { 
         left:50%; 
         top:-70px; 
         margin-left:-4px;
     }
-	.vision .circleBox .cbox.box_3 .sbox { 
+	.vision .circleBox .cBox.box3 .sBox { 
         width:140px; 
         height:140px; 
     }
-	.vision .circleBox .cbox.box_3 .sbox strong { 
+	.vision .circleBox .cBox.box3 .sBox strong { 
         font-size:18px;
      }
-	.vision .circleBox .cbox.box_3 .sbox span {
+	.vision .circleBox .cBox.box3 .sBox span {
          font-size:8px;
         }
 	.vision .txt { 
@@ -923,12 +923,12 @@ button{
 .vision .txt_2 { animation:ani_3 1.0s 0.7s; animation-fill-mode:both; }
 
 .vision .tit { animation:ani_3 1.0s 0.3s; animation-fill-mode:both; }
-.vision .circleBox .cbox.box_1 { animation:ani_1 1.0s 0.6s; animation-fill-mode:both; }
-.vision .circleBox .cbox.box_2 { animation:ani_2 1.0s 0.6s; animation-fill-mode:both; }
+.vision .circleBox .cBox.box1 { animation:ani_1 1.0s 0.6s; animation-fill-mode:both; }
+.vision .circleBox .cBox.box2 { animation:ani_2 1.0s 0.6s; animation-fill-mode:both; }
 .vision .txt { animation:ani_4 1.0s 0.9s; animation-fill-mode:both; }
 
 @media screen and (max-width:640px){
-	.vision .circleBox .cbox.box_1 { animation:ani_4 1.0s 0.6s; animation-fill-mode:both; }
-	.vision .circleBox .cbox.box_2 { animation:ani_3 1.0s 0.6s; animation-fill-mode:both; }
+	.vision .circleBox .cBox.box1 { animation:ani_4 1.0s 0.6s; animation-fill-mode:both; }
+	.vision .circleBox .cBox.box2 { animation:ani_3 1.0s 0.6s; animation-fill-mode:both; }
 }
 

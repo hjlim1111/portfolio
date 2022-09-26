@@ -17,7 +17,6 @@ img{display: block; max-width: 100%;}
     clear:both;
     display:block;
 }
-
 header{
     position:fixed;
     left:0;
@@ -50,7 +49,7 @@ header{
     color: #3a332e;
     letter-spacing:1px;
 }
-
+.mobile{display: none;}
 .btn_nav{
     position: absolute;
     top:50%;
@@ -76,7 +75,6 @@ header{
 .btn_nav span:nth-child(3){
     top:16px;
 }
-
 header.active span{
     background:#fff;
 }
@@ -94,7 +92,6 @@ header.active span:nth-child(3){
 header.active .logo a{
     background-image:url(../img/logo_w.png);
 }
-
 .nav_wrap{
     position: fixed;
     background-color:#e8d7c3;
@@ -104,14 +101,17 @@ header.active .logo a{
     height:90px;
     transition: .3s;
 }
-
-
 header .nav_inner{
     width: 60%;
     height:90px;
     margin: auto;
     text-align: center;
     z-index: 999;
+}
+.nav_inner .gnb{
+    width: 80%;
+    margin: auto;
+    transition:.3s ease-in-out;
 }
 header .nav_bg{
     width: 100%;
@@ -122,24 +122,17 @@ header .nav_bg{
     background-color: #fff;
     display: none;
 }
-
 header ul.gnb>li{
-    width: 100%;
-    overflow: hidden;
-    font-size: 30px;
-    font-weight: 700;
+    width: 18%;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 90px;
     position: relative;
 }
 header ul.gnb>li>a{
-    font-family: 'Noto Sans KR', sans-serif; 
-}
-
-header ul.gnb>li>a{
     font-size: 15px;
     font-weight: 500;
 }
-
 header ul.gnb>li>a:hover{
     color: #fff;
     transition: 0.3s;
@@ -151,7 +144,6 @@ header ul.submenu{
     width: 100%;
     display: none;
 }
-
 header ul.submenu>li{
     width: 100%;
     line-height: 60px;
@@ -160,7 +152,6 @@ header ul.submenu>li{
     font-weight: 300;
     
 }
-
 header ul.submenu>li>a:hover{
     border-bottom: 1px solid #333;
 }
@@ -174,7 +165,6 @@ header ul.login{
     display:flex;
     justify-content:space-between;
 }
-
 header ul.login>li{
     font-size: 12px;
     font-weight: 300;
@@ -183,55 +173,30 @@ header ul.login>li{
     margin: 40px 0px; /* 90 - 10 / 2*/
     padding: 0px 10px;
 }
-
 ul.login>li:nth-of-type(1){
     padding-left: 0;
 }
-
 ul.login>li:nth-of-type(3){
     border: none;
     padding-right: 0;
 }
-
 header ul.login>li>a{
     display: block;
 }
-
 header li>a{
     color: #333333;
 }
-
 header ul.login i{
     opacity: 0;
 }
 header i{
     opacity: 0;
 }
-
 @media all and (max-width:1300px){
     .login{
         display: none;
     }
+    .mobile{
+        display: block;
+    }
 }
-
-@media all and (min-width:1300px){
-    .nav_inner .gnb{
-        width: 80%;
-        margin: auto;
-        transition:.3s ease-in-out;
-    }
-
-    header ul.gnb>li{
-        width: 18%;
-        font-size: 14px;
-        font-weight: 400;
-        position: relative;
-    }
-    header ul.gnb>li:nth-child(4){
-        width: 10%;
-    }
-    .mobile{display: none;}
-
-
-}
-

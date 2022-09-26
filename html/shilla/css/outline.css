@@ -646,6 +646,11 @@ button{
 
 
     /*vision*/
+
+    .vision.con{
+        width: 100%;
+    }
+
     .vision .tit { font-size:24px; }
 	
 	.vision { 

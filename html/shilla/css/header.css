@@ -4,7 +4,7 @@
 li{list-style: none;}
 a{text-decoration: none;}
 img{display: block; max-width: 100%;}
-.flex_value{display:flex;justify-content:space-between;}
+.flexValue{display:flex;justify-content:space-between;}
 
 /* common */
 .hide{display:none;}
@@ -50,7 +50,7 @@ header{
     letter-spacing:1px;
 }
 .mobile{display: none;}
-.btn_nav{
+.btnNav{
     position: absolute;
     top:50%;
     transform:translateY(-50%);
@@ -59,7 +59,7 @@ header{
     width:26px;
     height:18px;
 }
-.btn_nav span{
+.btnNav span{
     display: block;
     position: absolute;
     top:0;
@@ -69,10 +69,10 @@ header{
     text-indent:-999em;
     transition:.3s;
 }
-.btn_nav span:nth-child(2){
+.btnNav span:nth-child(2){
     top:8px;
 }
-.btn_nav span:nth-child(3){
+.btnNav span:nth-child(3){
     top:16px;
 }
 header.active span{
@@ -92,7 +92,7 @@ header.active span:nth-child(3){
 header.active .logo a{
     background-image:url(../img/logo_w.png);
 }
-.nav_wrap{
+.navWrap{
     position: fixed;
     background-color:#e8d7c3;
     left: 0;
@@ -101,14 +101,14 @@ header.active .logo a{
     height:90px;
     transition: .3s;
 }
-header .nav_inner{
+header .navInner{
     width: 60%;
     height:90px;
     margin: auto;
     text-align: center;
     z-index: 999;
 }
-.nav_inner .gnb{
+.navInner .gnb{
     width: 80%;
     margin: auto;
     transition:.3s ease-in-out;
@@ -192,10 +192,13 @@ header ul.login i{
 header i{
     opacity: 0;
 }
-@media all and (max-width:1300px){
+@media all and (max-width:1430px) {
     .login{
         display: none;
     }
+}
+@media all and (max-width:1300px){
+
     .mobile{
         display: block;
     }

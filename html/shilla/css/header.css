@@ -51,6 +51,7 @@ header{
     letter-spacing:1px;
 }
 .mobile{display: none;}
+
 .btnNav{
     position: absolute;
     top:50%;
@@ -94,6 +95,15 @@ header.active .logo h1,
 header.active .logo h3{
     color:#fff;
 }
+header.active .allLogin ul.loginIcon{
+    top: 600px;
+    right: 50%;
+    transform: translateX(56%);
+}
+header.active .allLogin ul.loginIcon i{
+    font-size: 30px;
+}
+
 .navWrap{
     position: fixed;
     left: 0;
@@ -210,21 +220,29 @@ header li>a{
         margin-right: 15px;
     }
 }
+
+/*모바일, 태블릿*/
 @media all and (max-width:1300px){
 
-    header{
-        height:70px;
-    }
+    header{height:70px;}
     .logo{top:9px;}
     .allLogin ul.loginIcon{right:12%;top: 22px;}
-
-    .mobile{
-        display: block;
-    }
+    .mobile{ display: block;}
     .mobileNavWrap{
         display: none;
-        background-color:#e8d7c3;
+        background-color:#e8d7c3d4;
         width:100%;
         height:100%;
+    }
+    header ul.gnb>li{line-height: 60px;}
+    header .navBg {top: 60px;}
+    .flexValue {
+        flex-direction: column;
+        padding-top: 160px;
+    }
+    header ul.gnb>li {width: 100%;}
+    header ul.gnb>li>a{
+        font-size:30px;
+        font-weight:700;
     }
 }

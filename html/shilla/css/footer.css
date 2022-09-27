@@ -157,3 +157,30 @@ footer .sec p{
     font-size: 13px;
     transition: 0.6s;
 }
+
+
+@media all and (max-width:1500px){
+    footer .fis .wrap > .footerLogo{width: 25.21%;}
+}
+@media all and (max-width:1100px){
+    footer .right>.top a{font-size:22px;}
+    footer .fis .wrap > .footerLogo h1{font-size:24px;}
+    footer .right>.top {justify-content: space-between;}
+}
+@media all and (max-width:900px){
+    footer .fis .wrap > .footerLogo{width: 30%;}
+    footer .wrap{width: 92%;}
+    footer .sec .top,footer .bottom p{display: none;}
+    footer .bottom ul{margin-bottom: 30px;}
+    footer .right>.top{margin: 20px 0;}
+    footer .right>.top a{margin-right:0;}
+    footer .right>.top a{font-size:16px;}
+    footer .bottom li {padding: 0px 10px;}
+}
+@media all and (max-width:715px){
+    footer .right>.bottom,
+    footer .bottom ul{
+        display: none;
+    }
+    footer .fis .wrap > .footerLogo h1{font-size:20px;}
+}

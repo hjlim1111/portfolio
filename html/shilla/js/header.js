@@ -1,26 +1,26 @@
 $(document).ready(function(){
     
-    $('.btn_nav').click(function(e){
+    $('.btnNav').click(function(e){
         e.preventDefault();
         $('header').toggleClass('active');
-        $('#nav_wrap').slideToggle();
+        $('.navWrap').slideToggle();
     });
     
     $(window).resize(function(){
         if($(this).width() >= 1300){
             $('header').removeClass('active');
-            $('#nav_wrap').show();
+            $('.navWrap').show();
         } else{
-            $('#nav_wrap').hide();
+            $('.navWrap').hide();
         }
     });
 
 
 
     /*submenu 나타나게*/
-    $("ul.gnb>li").hover(function ( ) {
-        $(".nav_bg,.submenu").stop().slideDown();
+    $('ul.gnb > li').hover(function ( ) {
+        $('.navBg,.submenu').stop().slideDown();
     },function ( ) {
-        $(".nav_bg,.submenu").stop().slideUp();
+        $('.navBg,.submenu').stop().slideUp();
     });
 });

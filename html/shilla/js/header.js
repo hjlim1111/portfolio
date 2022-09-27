@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
     
     $(window).resize(function(){
-        if($(this).width() >= 1300){
+        if($(this).width() > 1300){
             $('header').removeClass('active');
             $('.navWrap').show();
         } else{

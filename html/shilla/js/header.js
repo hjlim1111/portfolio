@@ -26,13 +26,12 @@ $(document).ready(function(){
     
     /*submenu 나타나게*/
     $('ul.gnb > li').hover(function ( ) {
-        if($(this).width() >= 1300){
+        if(window.screen.width >= 1300){
             $('.navBg,.submenu').stop().slideDown();
         }
      },function ( ) {
-        if($(this).width() >= 1300){
+        if(window.screen.width >= 1300){
             $('.navBg,.submenu').stop().slideUp();
         }
      });
-
 });

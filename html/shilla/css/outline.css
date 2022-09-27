@@ -840,7 +840,15 @@ button{
 
 
     /*mission*/
-
+    .mission .allBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mission .box{
+        width: 100%;
+        margin-bottom: 100px;
+    }
     .mission .box p{
         padding-bottom: 30px;
     }

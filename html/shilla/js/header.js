@@ -1,20 +1,19 @@
 $(document).ready(function(){
     
-    $('.btnNav').click(function(e){
-        e.preventDefault();
-        $('header').toggleClass('active');
-        $('.navWrap').slideToggle();
-    });
+    // $('.btnNav').click(function(e){
+    //     e.preventDefault();
+    //     $('header').toggleClass('active');
+    //     $('.mobileNavWrap').slideToggle();
+    // });
     
-    $(window).resize(function(){
-        if($(this).width() > 1300){
-            $('header').removeClass('active');
-            $('.navWrap').show();
-        } else{
-            $('.navWrap').hide();
-        }
-    });
-
+    // $(window).resize(function(){
+    //     if($(this).width() >= 1300){
+    //         $('header').removeClass('active');
+    //         $('.mobileNavWrap').show();
+    //     } else{
+    //         $('.mobileNavWrap').hide();
+    //     }
+    // });
 
 
     /*submenu 나타나게*/

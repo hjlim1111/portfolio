@@ -23,7 +23,7 @@ header{
     top:0;
     width:100%;
     height:90px;
-    background:transparent;
+    background-color:#e8d7c3;
     z-index:1000;
     transition:.3s ease-in-out;
     text-align: center;
@@ -33,6 +33,7 @@ header{
     left:6.4%; /* 48 / 750 */
     top:18px;
     z-index:1000;
+    transition: .3s;
 }
 .logo h1{
     font-family: 'Playfair Display', serif;
@@ -89,12 +90,12 @@ header.active span:nth-child(3){
     top:8px;
     transform: rotate(-45deg);
 }
-header.active .logo a{
-    background-image:url(../img/logo_w.png);
+header.active .logo h1,
+header.active .logo h3{
+    color:#fff;
 }
 .navWrap{
     position: fixed;
-    background-color:#e8d7c3;
     left: 0;
     top: 0;
     width:100%;
@@ -186,6 +187,7 @@ header ul.login>li>a{
 header li>a{
     color: #333333;
 }
+.allLogin ul.loginIcon{opacity:0;}
 
 @media all and (max-width:1430px) {
     .allLogin .login{
@@ -193,9 +195,11 @@ header li>a{
     }
 
     .allLogin ul.loginIcon{
+        opacity:1;
         position:absolute;
         right: 100px;
         top: 30px;
+        transition: .3s;
     }
 
     .allLogin ul.loginIcon i {
@@ -208,7 +212,19 @@ header li>a{
 }
 @media all and (max-width:1300px){
 
+    header{
+        height:70px;
+    }
+    .logo{top:9px;}
+    .allLogin ul.loginIcon{right:12%;top: 22px;}
+
     .mobile{
         display: block;
+    }
+    .mobileNavWrap{
+        display: none;
+        background-color:#e8d7c3;
+        width:100%;
+        height:100%;
     }
 }

@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    if(window.innerWidth > 1300){
+        $('linkStop').attr('href','outline.html');
+    } else{
+        $('linkStop').attr('href','#');
+    }
+
     $('.btnNav').click(function(e){
         e.preventDefault();
         $('header').toggleClass('active');
@@ -7,11 +13,12 @@ $(document).ready(function(){
     });
     
     $(window).resize(function(){
-        if($(this).width() >= 1300){
+        if($(this).width() > 1300){
             $('header').removeClass('active');
             $('.mobileNavWrap').show();
         } else{
             $('.mobileNavWrap').hide();
+            $('linkStop').attr('#');
         }
     });
 

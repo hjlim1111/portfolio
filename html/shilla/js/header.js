@@ -6,12 +6,12 @@ $(document).ready(function(){
     //     $('.linkStop').attr('href','#');
     // }
 
-    if($(this).width() > 1300){
-        $('header').removeClass('active');
-        $('.mobileNavWrap').show();
-    } else{
-        $('.mobileNavWrap').hide();
-    }
+    // if($(this).width() > 1300){
+    //     $('header').removeClass('active');
+    //     $('.mobileNavWrap').show();
+    // } else{
+    //     $('.mobileNavWrap').hide();
+    // }
 
     $('.btnNav').click(function(e){
         e.preventDefault();

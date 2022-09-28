@@ -632,6 +632,42 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     }
 }
 @media all and (max-width:1450px){
+    #contents{
+        padding-top: 0px;
+    }
+    #panels section .main{
+        height: 780px;
+    }
+    #panels .img{
+        display: none;
+    }
+    #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+        font-size: 70px;
+    }
+    #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+        font-size: 70px;
+    }
+    #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+        font-size: 70px;
+    }
+    #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+        font-size: 70px;
+    }
+    ul#tabs-list{
+        position: absolute;
+        right: 0;
+        top: 60px;
+    }
+    ul#tabs-list li label.panel-label {          
+        font-size: 30px;
+    }
+    .main .bg{
+        margin-top: 0;
+    }
+    .main .right{
+        margin-top: 0;
+    }
+    
     .gal .left .lb {
         height: 36vh;
     }
@@ -648,6 +684,20 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1300px){
+    /*reward*/
+        .contents{
+        padding-top: 50px;
+    }
+
+    .main .text h1{
+        font-size: 40px;
+        line-height: 42px;
+    }
+    ul#tabs-list{
+        position: absolute;
+        right: 0;
+        top: 80px;
+    }
     /*life*/
     .life>.con_inner{background-size: 100% 1500px;}
     .life .text p:nth-of-type(2),
@@ -689,20 +739,68 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1150px){
+    ul#tabs-list{
+        top: 20px;
+    }
     .gal.wrap_2{
         width: 88%;
     }
 }
 @media all and (max-width:1024px){
+    #panels section .main,
     .life .con,
     .gal.wrap_2{
         width: 94%;
     }
+
+    #panels section .main{
+        height: 1000px;
+    }
+    #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
+        font-size: 64px;
+    }
+    #panel-2-ctrl:checked ~ #tabs-list #li-for-panel-2 label.panel-label {
+        font-size: 64px;
+    }
+    #panel-3-ctrl:checked ~ #tabs-list #li-for-panel-3 label.panel-label {
+        font-size: 64px;
+    }
+    #panel-4-ctrl:checked ~ #tabs-list #li-for-panel-4 label.panel-label {
+        font-size: 64px;
+    }
+    ul#tabs-list{
+        position: static;
+        width: 94%;
+        margin-bottom: 20px;
+        
+    }
+    ul#tabs-list li label.panel-label {          
+        font-size: 40px;
+        font-weight: 400;
+    }
+    ul#tabs-list li{
+        float: left;
+        width: 19%;
+    }
+
     .life .text h3{
         font-weight: 500;
     }
 }
 @media all and (max-width:780px){
+
+    /*rewards*/
+    .contents .flex_value{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .bg {display: none;}
+    .main .left,
+    .main .right{width: 100%;}
+    .main .left{
+        margin-bottom: 50px;
+    }
+
     .life>.con_inner {
         background-size: 100% 3020px;
         height: 3500px;

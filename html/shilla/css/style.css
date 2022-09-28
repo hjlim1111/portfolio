@@ -704,7 +704,7 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 @media all and (max-width:780px){
     .life>.con_inner {
-        background-size: 100% 3000px;
+        background-size: 100% 3020px;
         height: 3500px;
     }
     .life .flex_value{
@@ -733,7 +733,7 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     .life .flex_value:nth-child(2){
         flex-direction: column-reverse;
     }
-    .gal h1{
-        height: 200px;
+    .all_gal {
+        height: 75vh;
     }
 }

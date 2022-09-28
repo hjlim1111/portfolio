@@ -619,5 +619,7 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 .gal iframe{display: none;}
 
 @media all and (max-width:1600px){
-    
+    .gal .left .lt {
+        height: 36vh;
+    }
 }

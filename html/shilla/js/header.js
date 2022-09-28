@@ -15,22 +15,14 @@ $(document).ready(function(){
         }
     });
 
-
-    // /*submenu 나타나게*/
-    // $('ul.gnb > li').hover(function ( ) {
-    //     $('.navBg,.submenu').stop().slideDown();
-    // },function ( ) {
-    //     $('.navBg,.submenu').stop().slideUp();
-    // });
-
     
     /*submenu 나타나게*/
     $('ul.gnb > li').hover(function ( ) {
-        if(window.screen.width >= 1300){
+        if(window.innerWidth >= 1300){
             $('.navBg,.submenu').stop().slideDown();
         }
      },function ( ) {
-        if(window.screen.width >= 1300){
+        if(window.innerWidth >= 1300){
             $('.navBg,.submenu').stop().slideUp();
         }
      });

@@ -640,6 +640,10 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     .mainSd table td:first-child{
         padding-left: 30px;
     }
+
+    .contents{
+        margin-top: 100px;
+    }
 }
 
 @media all and (max-width:1600px){
@@ -654,8 +658,9 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     }
 }
 @media all and (max-width:1450px){
-    #contents{
-        padding-top: 0px;
+    .contents{
+        padding-top: 0;
+        margin-top: 0;
     }
     #panels section .main{
         height: 780px;
@@ -696,6 +701,9 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1400px){
+    .mainSd {
+        height: 730px;
+    }
     .mainSd .text p{
         display: none;
     }
@@ -711,6 +719,7 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     }
 
     .life {
+        margin-top: 50px;
         margin-bottom: 0;
     }
     .all_gal{
@@ -720,12 +729,11 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1300px){
+    .mainSd {
+        height: 660px;
+    }
     .mainSd table{
         width: 88%;
-    }
-    /*reward*/
-        .contents{
-        padding-top: 50px;
     }
 
     .main .text h1{
@@ -791,7 +799,9 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     .mainSd table .bottom p {
         margin-right: 0;
     }
-    
+    .contents {
+        margin-top: 70px;
+    }
 
     
     ul#tabs-list{
@@ -802,15 +812,18 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     }
 }
 @media all and (max-width:1024px){
+    .mainSd table{
+        display: none;
+    }
+    .contents {
+        margin-top: 30px;
+    }
     #panels section .main,
     .life .con,
     .gal.wrap_2{
         width: 94%;
     }
 
-    #panels section .main{
-        height: 1000px;
-    }
     #panel-1-ctrl:checked ~ #tabs-list #li-for-panel-1 label.panel-label {
         font-size: 64px;
     }
@@ -843,8 +856,16 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     }
 }
 @media all and (max-width:780px){
+    .mainSd{
+        height: 600px;
+        background-size: cover;
+    }
+    #panels section .main{
+        height: 1200px;
+    }
 
     /*rewards*/
+    
     .contents .flex_value{
         flex-direction: column;
         align-items: center;
@@ -855,7 +876,9 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
     .main .left{
         margin-bottom: 50px;
     }
-
+    .life{
+        margin-top: 300px;
+    }
     .life>.con_inner {
         background-size: 100% 3020px;
         height: 3500px;

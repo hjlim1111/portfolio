@@ -133,6 +133,7 @@ button{
     margin-top: 600px;
     border-collapse: collapse;
     text-align: center;
+    transition: .6s;
 }
 td{ border: none;}
 
@@ -619,6 +620,27 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 
 .gal iframe{display: none;}
 
+@media screen and (max-width:1670px){
+    .mainSd{
+        height: 800px;
+    }
+    
+    .mainSd .text{
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, 0);
+    }
+    .mainSd table{
+        margin-top: 500px;
+    }
+    .mainSd table td img{
+        display: none;
+    }
+    .mainSd table td:first-child{
+        padding-left: 30px;
+    }
+}
 
 @media all and (max-width:1600px){
     .life .flex_value .left > img,
@@ -674,6 +696,20 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1400px){
+    .mainSd .text p{
+        display: none;
+    }
+
+    .mainSd .text{
+        position: absolute;
+        left: 50%;
+        top: 26%;
+        transform: translate(-50%, 0);
+    }
+    .mainSd table {
+        margin-top: 400px;
+    }
+
     .life {
         margin-bottom: 0;
     }
@@ -684,6 +720,9 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1300px){
+    .mainSd table{
+        width: 88%;
+    }
     /*reward*/
         .contents{
         padding-top: 50px;
@@ -739,6 +778,22 @@ ul#tabs-list li label.panel-label:hover::after {height: 6px;}
 }
 
 @media all and (max-width:1150px){
+    .mainSd{
+        background-size: cover;
+        height: 500px;
+    }
+    .mainSd .text{
+        display: none;
+    }
+    .mainSd table{
+        margin-top: 300px;
+    }
+    .mainSd table .bottom p {
+        margin-right: 0;
+    }
+    
+
+    
     ul#tabs-list{
         top: 20px;
     }

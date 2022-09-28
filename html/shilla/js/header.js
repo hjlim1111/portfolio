@@ -31,7 +31,7 @@ $(document).ready(function(){
      $('ul.gnb > li').click(function ( ) {
         if(window.innerWidth <= 1300){
             $(this).stop().slideToggle();
-            console.log(this);
+            console.log($(this));
         } 
      });
 });

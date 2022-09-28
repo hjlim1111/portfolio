@@ -1,9 +1,16 @@
 $(document).ready(function(){
 
-    if(window.innerWidth > 1300){
-        $('linkStop').attr('href','outline.html');
+    // if(window.innerWidth > 1300){
+    //     $('.linkStop').attr('href','outline.html');
+    // } else{
+    //     $('.linkStop').attr('href','#');
+    // }
+
+    if($(this).width() > 1300){
+        $('header').removeClass('active');
+        $('.mobileNavWrap').show();
     } else{
-        $('linkStop').attr('href','#');
+        $('.mobileNavWrap').hide();
     }
 
     $('.btnNav').click(function(e){
@@ -18,7 +25,7 @@ $(document).ready(function(){
             $('.mobileNavWrap').show();
         } else{
             $('.mobileNavWrap').hide();
-            $('linkStop').attr('#');
+            // $('.linkStop').attr('#');
         }
     });
 
@@ -35,10 +42,10 @@ $(document).ready(function(){
      });
 
      /* 1300이하일 때 서브메뉴 각각 나타나게 표현 */
-     $('ul.gnb > li').click(function ( ) {
-        if(window.innerWidth <= 1300){
-            $(this).stop().slideToggle();
-            console.log($(this));
-        } 
-     });
+    //  $('ul.gnb > li').click(function ( ) {
+    //     if(window.innerWidth <= 1300){
+    //         $(this).stop().slideToggle();
+    //         console.log($(this));
+    //     } 
+    //  });
 });

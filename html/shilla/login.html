@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
-    <link rel="shortcut icon" href="img/favicon.ico"> 
-    <script src="js/jquery-1.12.3.js"></script>
-    <script src="js/prefixfree.min.js"></script>
     <style>
         *{padding: 0; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
         li{list-style: none;}
@@ -79,7 +76,7 @@
             border: 1px solid #e8d7c3;
             border-radius: 6px;
             background-color: #e8d7c3;
-            cursor:pointer;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -94,24 +91,23 @@
     <div class="loginForm">
         <form action="">
             <input type="text" name="" id="loginId" placeholder="아이디">
-            <input type="password" name="" id="pwd" placeholder="비밀번호" onkeypress="enterkey();">
-            <button type="button" onclick="testLogin();">로그인</button>
+            <input type="password" name="" id="pwd" placeholder="비밀번호">
+            <button type="button" id="myBtn">로그인</button>
         </form>
     </div>
-
     <ul>
         <li><a href="#">비밀번호 찾기</a></li>
         <li><a href="#">아이디 찾기</a></li>
         <li><a href="#">회원가입</a></li>
     </ul>
-
     <p>아이디 : admin 비밀번호 : 111111<br>위의 설정값을 입력하여 로그인하여 보세요.</p>
 
     <script>
         /*제이쿼리를 사용하지 않고 로직짜기*/
         function testLogin(){
-            let id = $('#loginId').val();
-            let pwd = $('#pwd').val();
+            let id = document.getElementById('loginId').value;
+            let pwd = document.getElementById('pwd').value;
+            
 
             if(id === "admin" && pwd === "111111"){
                 alert("로그인되었습니다.");
@@ -120,11 +116,17 @@
                 alert("아이디, 비밀번호를 확인하여 주세요.");
             }
         };
-        function enterkey() {
-	    if (window.event.keyCode === 13) {
+
+        myBtn.addEventListener("click", function (event){ // 클릭이벤트
             testLogin();
+        });
+        pwd.addEventListener("keyup", function (event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();// 키 입력값이 입력칸을 채우는 것을 방지
+                document.getElementById("myBtn").click();
             }
-        }
+            
+        });
     </script>
 </body>
 </html>
